@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<game name="New Super Mario Bros. Wii" retail="nsmbw" standalone sort="2" version="1" catchphrase="Mario leaps into an all-new adventure!" copyright="© 2009 Nintendo. TM, ® and the Wii logo are trademarks of Nintendo." publishEU="November 20, 2009" publishJP="December 3, 2009" publishUS="November 15, 2009" logo="logo.png" fileExt=".arc" firstLevel="01-01" levelFolder="Stage" tilesetFolder="Texture">
+
+    <!-- Folders -->
+    <folder name="bga" path="bga" />
+    <folder name="bgb" path="bgb" />
+    <folder name="sprites" path="sprites" />
+
+    <!-- Files -->
+    <file name="bga" path="bga.txt" />
+    <file name="bgb" path="bgb.txt" />
+    <file name="entrances" path="entrances.png" />
+    <file name="entrancetypes" path="entrancetypes.txt" />
+    <file name="levelnames" path="levelnames.xml" />
+    <file name="music" path="music.txt" />
+    <file name="overrides" path="overrides.png" />
+    <file name="spritecategories" path="spritecategories.xml" />
+    <file name="spritedata" path="spritedata.xml" />
+    <file name="sprites" path="sprites.py" />
+    <file name="tilesets" path="tilesets.xml" />
+    <file name="ts1_descriptions" path="ts1_descriptions.txt" />
+
+</game>

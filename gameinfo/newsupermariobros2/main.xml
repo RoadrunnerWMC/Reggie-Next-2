@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<game name="New Super Mario Bros. 2" retail="nsmb2" standalone sort="3" version="1" catchphrase="Can you collect a MILLION COINS?" copyright="© 2012 Nintendo. Trademarks are property of their respective owners. Nintendo 3DS is a trademark of Nintendo." publishEU="August 17, 2012" publishJP="July 28, 2012" publishUS="August 19, 2012" logo="logo.png" fileExt=".sarc" firstLevel="1-1" levelFolder="Course" tilesetFolder="Unit">
+
+    <!-- Folders -->
+    <folder name="bga" path="bga" />
+    <folder name="bgb" path="bgb" />
+    <folder name="sprites" path="sprites" />
+
+    <!-- Files -->
+    <file name="bga" path="bga.txt" />
+    <file name="bgb" path="bgb.txt" />
+    <file name="entrances" path="entrances.png" />
+    <file name="entrancetypes" path="entrancetypes.txt" />
+    <file name="levelnames" path="levelnames.xml" />
+    <file name="music" path="music.txt" />
+    <file name="overrides" path="overrides.png" />
+    <file name="spritecategories" path="spritecategories.xml" />
+    <file name="spritedata" path="spritedata.xml" />
+    <file name="sprites" path="sprites.py" />
+    <file name="tilesets" path="tilesets.xml" />
+    <file name="ts1_descriptions" path="ts1_descriptions.txt" />
+
+</game>

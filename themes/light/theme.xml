@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<theme name="Light" creator="Tempus" description="The modern standard Reggie Next theme.">
+    <rqss file="style.qss" />
+
+    <color name="background" value="#789" />
+    <color name="gridMain" value="#64FFFFFF" />
+    <color name="gridLight" value="#0AFFFFFF" />
+    <color name="gridDark" value="#14FFFFFF" />
+</theme>

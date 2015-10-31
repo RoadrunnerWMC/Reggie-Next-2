@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<theme name="Dark" creator="JasonP27" description="A dark counterpart to the standard Reggie Next theme.">
+    <qss file="style.qss" />
+
+    <color name="background" value="#00F" />
+</theme>

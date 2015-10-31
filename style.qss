@@ -1,0 +1,160 @@
+/*
+Main Qt Style Sheet for Reggie Next.
+*/
+
+
+QWidget#SettingsTab
+{
+    background: #EEE;
+}
+
+
+QListWidget#SettingsTab_Selector
+{
+    border: 0px solid transparent;
+}
+
+
+QListWidget#SettingsTab_Selector::item
+{
+    background: #F00;
+    font-size: 3em;
+}
+
+
+
+QAbstractItemView:item
+{
+    min-height: 24px;
+}
+
+
+QDialog
+{
+    background: #FCFCFC;
+}
+
+
+QMainWindow
+{
+    background: #FFF;
+}
+
+
+QMenu
+{
+    padding: 4px 0px 4px 0px;
+}
+QMenu::separator
+{
+    color: #88F;
+    height: 32px;
+}
+QMenu::item
+{
+    color: #444;
+}
+
+
+QMenuBar
+{
+    color: #444;
+}
+
+
+QPushButton
+{
+    background: #E2E2E2;
+    border: 1px solid #CCC;
+    padding: 8px 12px 8px 12px;
+}
+QPushButton:hover
+{
+    background: #EEE;
+    border-color: #E2E2E2;
+    color: #44F;
+}
+QPushButton:pressed
+{
+    background: #AAA;
+    border-color: #999;
+    color: #000;
+}
+
+
+QSlider::groove
+{
+    background: #AAB;
+}
+QSlider::groove:pressed
+{
+    background: #BBF;
+}
+QSlider::handle
+{
+    background: #EEE;
+    width: 10px;
+}
+QSlider::handle:pressed
+{
+    background: #CCC;
+}
+
+
+QStatusBar QLabel, QStatusBar QToolButton
+{
+    color: #444;
+}
+
+
+QToolButton
+{
+    border: 1px solid transparent;
+}
+QToolButton:hover
+{
+    background: #E2E2E2;
+    border-color: #CCC;
+}
+QToolButton:pressed
+{
+    background: #AAA;
+    border-color: #999;
+}
+
+
+/*
+QTabBar (shape=4: "TriangularNorth" tab shape)
+Modeled after the "One Light" theme in Atom.
+*/
+QTabBar[shape="4"]
+{
+    background: #EAEAEA;
+}
+QTabBar[shape="4"]::tab
+{
+    border: 0px solid transparent;
+    border-left-width: 2px;
+    border-right-color: #DDD;
+    border-right-width: 1px;
+    color: #AAA;
+    padding: 6px 50px 6px 10px;
+}
+QTabBar[shape="4"]::tab:selected
+{
+    background: #FAFAFA;
+    border-left-color: #F66;
+    color: #666;
+}
+QTabBar[shape="4"]::tab:hover:!selected
+{
+    background: #EFEFEF;
+}
+QTabBar[shape="4"]::close-button
+{
+    image: url(reggiedata/tab-close.png);
+}
+QTabBar[shape="4"]::close-button:hover
+{
+    image: url(reggiedata/tab-close-hover.png);
+}

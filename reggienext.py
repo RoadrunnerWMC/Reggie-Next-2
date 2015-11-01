@@ -1898,11 +1898,6 @@ class ReggieNextWindow(QtWidgets.QMainWindow):
             _('Help documentation for beginners and power users'),
             QtGui.QKeySequence('Ctrl+Shift+H'), 31)
         self.createAction(
-            'devboard', self.handleDevboard, getIcon('reggienext'),
-            _('Reggie Next DevBoard...'),
-            _('Visit the official Reggie Next DevBoard'),
-            QtGui.QKeySequence('Ctrl+Shift+D'), 32)
-        self.createAction(
             'update', self.handleUpdate, getIcon('download'),
             _('Check for Updates...'),
             _('Check if any updates for Reggie Next are available to download'),
@@ -1987,7 +1982,6 @@ class ReggieNextWindow(QtWidgets.QMainWindow):
         hmenu.addAction(self.actions['aboutqt'])
         hmenu.addSection(_('Links'))
         hmenu.addAction(self.actions['help'])
-        hmenu.addAction(self.actions['devboard'])
         hmenu.addSection(_('Actions'))
         hmenu.addAction(self.actions['update'])
 
@@ -2349,13 +2343,6 @@ class ReggieNextWindow(QtWidgets.QMainWindow):
         """
         global appPath
         QtGui.QDesktopServices.openUrl(QtCore.QUrl.fromLocalFile(os.path.join(appPath, 'help', 'index.html')))
-
-
-    def handleDevboard(self):
-        """
-        View the Reggie Next DevBoard
-        """
-        QtGui.QDesktopServices.openUrl(QtCore.QUrl('http://reggienext.nsmbwii.com/'))
 
 
     def handleUpdate(self):

@@ -1,3 +1,9 @@
+# THIS PROGRAM IS UNFINISHED AND DOESN'T ACTUALLY WORK
+
+Sorry.
+
+----------------------------------------------------------------
+
 # Reggie Next Level Editor 2
 ## The Modern, Powerful, Flexible, and Extensible Level Editor
 
